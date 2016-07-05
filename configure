@@ -62,8 +62,8 @@ VTCL_HOME=`pwd`
 cat > $VTCL_HOME/vtcl << EOF
 #!/bin/sh
 
-PATH_TO_WISH=$WISH
-VTCL_HOME=/usr/local/vtcl-8.6
+PATH_TO_WISH="${WISH}"
+VTCL_HOME="${VTCL_HOME}"
 
 export PATH_TO_WISH
 export VTCL_HOME
